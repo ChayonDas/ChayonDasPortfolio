@@ -1,4 +1,4 @@
-# Interactive Bisection Method with Neumorphic Interface
+#  Interactive Root Finder for Non-Linear Equations
 
 This project is an interactive application built using Python's Tkinter that visualizes the Bisection Method for finding roots of a function. It is designed with a Neumorphic interface style and includes error analysis with 2D and 3D visualizations.
 
@@ -46,6 +46,27 @@ The application allows users to:
 2. NumPy: Facilitates mathematical operations and array management.
 3. Matplotlib: Utilized for rendering 2D and 3D visualizations.
 
+## Sample Input:
+
+!. Function:f(x): 𝑓(𝑥)=𝑥3−6𝑥^2+4𝑥+12
+2. Interval: [a, b]: a=1, b=4
+3. Tolerance: 1×10^−5
+4. Max Iterations: 100
+
+## Explanation: 
+The function f(x)=x 3−6x2+4x+12 is entered as a string. The interval chosen is [1, 4], and the algorithm will use the bisection method to find a root within this interval.
+
+## Expected Output:
+1. ### Graphical Plot:
+      .The plot displays the function curve.
+      .Vertical lines show the midpoint at each iteration, with the interval [a, b] narrowing.
+      .The root found is marked with a green dot.
+2. ### Message Box:
+      .Displays a message such as:
+   ```bash
+         Root found: 2.57678
+3. ### Iteration Details (logged on the plot or printed):
+   
 ## Usage Instructions
 1. Enter the function f(x) (e.g., x**3 - 6*x**2 + 4*x + 12) in the provided input box.
 2. Provide the interval [a,b] for the method to search for the root.
