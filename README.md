@@ -51,17 +51,26 @@ The application allows users to:
 4. An error analysis report is displayed in a popup with detailed iteration results.
 
 ## Example Output
-.2D Visualization: Shows the function f(x) with the midpoints marked as red dashed lines.
-.3D Visualization: A surface plot that illustrates the function with red markers for iteration points.
+1. 2D Visualization: Shows the function f(x) with the midpoints marked as red dashed lines.
+2. 3D Visualization: A surface plot that illustrates the function with red markers for iteration points.
 
 ## Code Highlights
-### Bisection Method Implementation
-The core logic iteratively finds the root by halving the interval:
-   ```bash
-   def bisection_method(func, a, b, tol=1e-5, max_iter=100):
-    iterations = []
-    errors = []
-    ...
-    return c, iterations, errors
+### Bisection Method ImplementationThe core logic iteratively finds the root by halving the interval:
+     ```bash
+       def bisection_method(func, a, b, tol=1e-5, max_iter=100):
+       iterations = []
+       errors = []
+       ...
+       return c, iterations, errors
+       
+## Neumorphic Design
+The interface uses a combination of dark and light shades for a Neumorphic look:
+1. Background color: #2f3542
+2. Widget color: #a4b0be
 
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any questions or feedback, please contact Chayon Das at daschayon26@gmail.com.
 
