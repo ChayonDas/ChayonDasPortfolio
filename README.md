@@ -48,7 +48,7 @@ The application allows users to:
 
 ## Sample Input:
 
-!. Function:f(x): 𝑓(𝑥)=𝑥3−6𝑥^2+4𝑥+12
+1. Function:f(x): 𝑓(𝑥)=𝑥3−6𝑥^2+4𝑥+12
 2. Interval: [a, b]: a=1, b=4
 3. Tolerance: 1×10^−5
 4. Max Iterations: 100
