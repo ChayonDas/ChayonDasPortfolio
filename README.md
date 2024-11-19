@@ -18,7 +18,7 @@ The application allows users to:
 - **Detailed Error Analysis**: Shows absolute and relative errors at each step.
 - **Interactive GUI**: Simple interface for input and visualization.
 
-## Screenshots
+## Project Demo
 
 ### 2D Visualization of Bisection Method
 ![bisection1](https://github.com/user-attachments/assets/9cd88fbe-f073-4f14-b840-35cf129f4082)
@@ -31,10 +31,37 @@ The application allows users to:
 2. Ensure Python 3.x is installed.
 3. Install the required Python packages:
    ```bash
-   pip install numpy matplotlib
+   pip install numpy
+   pip install matplotlib
 
 
 4. Run the script:
    ```bash
    python bisection_app.py
+
+## Dependencies
+.Tkinter: Used for creating the graphical user interface.
+.NumPy: Facilitates mathematical operations and array management.
+.Matplotlib: Utilized for rendering 2D and 3D visualizations.
+
+## Usage Instructions
+1. Enter the function f(x) (e.g., x**3 - 6*x**2 + 4*x + 12) in the provided input box.
+2. Provide the interval [a,b] for the method to search for the root.
+3. Review the plotted results in the 2D and 3D visualization areas.
+4. An error analysis report is displayed in a popup with detailed iteration results.
+
+## Example Output
+.2D Visualization: Shows the function f(x) with the midpoints marked as red dashed lines.
+.3D Visualization: A surface plot that illustrates the function with red markers for iteration points.
+
+## Code Highlights
+### Bisection Method Implementation
+The core logic iteratively finds the root by halving the interval:
+   ```bash
+   def bisection_method(func, a, b, tol=1e-5, max_iter=100):
+    iterations = []
+    errors = []
+    ...
+    return c, iterations, errors
+
 
