@@ -21,10 +21,9 @@ The application allows users to:
 ## Screenshots
 
 ### 2D Visualization of Bisection Method
-![2D Visualization](bisection1.png)
-
+![bisection1](https://github.com/user-attachments/assets/9cd88fbe-f073-4f14-b840-35cf129f4082)
 ### 3D Visualization of Function with Iterations
-![3D Visualization](bisection2.png)
+![bisection2](https://github.com/user-attachments/assets/3b436408-f641-457e-9e10-0f75798063ea)
 
 ## How to Run
 
@@ -33,3 +32,9 @@ The application allows users to:
 3. Install the required Python packages:
    ```bash
    pip install numpy matplotlib
+
+
+4. Run the script:
+   ```bash
+   python bisection_app.py
+
