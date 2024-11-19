@@ -30,19 +30,21 @@ The application allows users to:
 1. **Clone the repository** or download the project files.
 2. Ensure Python 3.x is installed.
 3. Install the required Python packages:
+   
    ```bash
    pip install numpy
    pip install matplotlib
 
 
-4. Run the script:
+5. Run the script:
+   
    ```bash
    python bisection_app.py
 
 ## Dependencies
-.Tkinter: Used for creating the graphical user interface.
-.NumPy: Facilitates mathematical operations and array management.
-.Matplotlib: Utilized for rendering 2D and 3D visualizations.
+1. Tkinter: Used for creating the graphical user interface.
+2. NumPy: Facilitates mathematical operations and array management.
+3. Matplotlib: Utilized for rendering 2D and 3D visualizations.
 
 ## Usage Instructions
 1. Enter the function f(x) (e.g., x**3 - 6*x**2 + 4*x + 12) in the provided input box.
